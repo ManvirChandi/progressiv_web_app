@@ -9,8 +9,15 @@ if ('serviceWorker' in navigator) {
 }
 
 
-var audio = new Audio('./audio/duck.wav');
+var audios = [
+    new Audio('./audio/duck.wav'),
+    new Audio('./audio/ente1.wav'),
+    new Audio('./audio/karug.wav'),
+    new Audio('./audio/quack.aiff')
+];
+
 
 $('img').click(() => {
-    audio.play();
+    playMe = audios[Math.floor(Math.random() * audios.length)];
+    playMe.play();
 });
