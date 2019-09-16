@@ -11,9 +11,9 @@ if ('serviceWorker' in navigator) {
 
 var audios = [
     new Audio('./audio/duck.wav'),
-    new Audio('./audio/ente1.wav'),
-    new Audio('./audio/karug.wav'),
-    new Audio('./audio/quack.aiff')
+    //new Audio('./audio/ente1.wav'),
+    //new Audio('./audio/karug.wav'),
+    //new Audio('./audio/quack.aiff')
 ];
 
 
